@@ -15,3 +15,39 @@
  */
 
 // YOUR CODE GOES HERE :)
+
+// A hungry shark wants some food.
+
+public class ASCIIArt {
+	
+	public static void drawDialogueBox() {
+		System.out.println("+---------------------------+");
+	}
+	
+	public static void sharkDialogue() {
+		System.out.println("|\"Give me some food please.\"|");
+	}
+	
+	public static void drawShark() {
+		System.out.println("");
+		System.out.println("             /|        ");
+		System.out.println("            / |           /|");
+		System.out.println("  __---***********-------/ |");
+		System.out.println("<  *                       |");
+		System.out.println("  ^^^ \\ |-------------***\\ |");
+		System.out.println("       \\|                 \\|");
+		
+	}
+	
+	public static void writeCaption() {
+		System.out.println("\n\nA hungry shark needs some food.");
+	}
+	
+	public static void main(String[] args ) {
+		drawDialogueBox();
+		sharkDialogue();
+		drawDialogueBox();
+		drawShark();
+		writeCaption();
+	}
+}
